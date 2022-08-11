@@ -21,7 +21,8 @@ public class Test1 {
         System.out.println("Ingresa el segundo número");
         Scanner num2 = new Scanner(System.in);
         numero2 = num2.nextInt();
-        int suma = numero1 + numero2;
+        int suma = numero1 * numero2;
         System.out.println("La suma de los dos números es: " + suma);
+        
     }
 }
